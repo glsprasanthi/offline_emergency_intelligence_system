@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "125280471722",
+    "project_id": "offline-emergency-intelligence",
+    "storage_bucket": "offline-emergency-intelligence.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125280471722:android:f2fb1a94c42b14a17c1ed3",
+        "android_client_info": {
+          "package_name": "com.example.offline_emergency_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJPsmknTKGYiNLwFgyqHXGbRQktSKLD2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
