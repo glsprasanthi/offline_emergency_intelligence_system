@@ -11,14 +11,14 @@ class CrowdReportScreen extends StatelessWidget {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            TextField(
-              decoration: const InputDecoration(
+            const TextField(
+              decoration: InputDecoration(
                 labelText: 'Issue (flooded road, blocked area)',
               ),
             ),
             const SizedBox(height: 15),
-            TextField(
-              decoration: const InputDecoration(
+            const TextField(
+              decoration: InputDecoration(
                 labelText: 'Location',
               ),
             ),
@@ -26,7 +26,11 @@ class CrowdReportScreen extends StatelessWidget {
             ElevatedButton(
               onPressed: () {
                 ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(content: Text('Report saved. Will sync when online.')),
+                  const SnackBar(
+                    content: Text(
+                      'Report saved. Will sync when online.',
+                    ),
+                  ),
                 );
               },
               child: const Text('Submit Report'),

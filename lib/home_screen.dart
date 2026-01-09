@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'instructions_screen.dart';
 import 'shelters_screen.dart';
 import 'crowd_report_screen.dart';
+import 'emergency_contacts_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -18,6 +19,7 @@ class HomeScreen extends StatelessWidget {
             _button(context, 'Emergency Instructions', const InstructionsScreen()),
             _button(context, 'Nearby Shelters', const SheltersScreen()),
             _button(context, 'Crowd Report', const CrowdReportScreen()),
+            _button(context, 'Emergency Contacts', const EmergencyContactsScreen()),
           ],
         ),
       ),
